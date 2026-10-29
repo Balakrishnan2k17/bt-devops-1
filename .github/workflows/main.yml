@@ -1,8 +1,8 @@
-name: CI-CD Pipeline
+name: Tomcat-CI-CD Pipeline
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "tomcat_cicd" ]
 
 jobs:
   build-and-deploy:
